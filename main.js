@@ -1,0 +1,9 @@
+function add_user(){
+    var player_1 = document.getElementById("player1_name_input").value;
+    var player_2 = document.getElementById("player2_name_input").value;
+    
+    localStorage.setItem("player1_name",player_1);
+    localStorage.setItem("player2_name",player_2);
+    
+    window.location = "quiz_game_page.html";
+}
